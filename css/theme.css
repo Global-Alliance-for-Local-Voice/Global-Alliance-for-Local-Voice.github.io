@@ -1,0 +1,159 @@
+html,body {
+  height:100%;
+    min-height: 100% !important;
+  margin:0;
+}
+
+.row {
+    height:100%;
+    min-height: 100% !important;
+}
+
+body {
+    font-family:"proxima-nova",sans-serif;
+    color:#212121;
+}
+
+.container-fluid {
+    height:100%;
+}
+
+#brand {
+    background:#487366;
+    text-align: center;
+    color:#ffffff;
+    height:100%;
+    min-height:100%;/*for mozilla*/
+
+    background: url(../images/bg-320.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+#brand-copy {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#brand-copy span {
+    display: inline-block;
+}
+
+#brand h1 {
+    font-size: 64px;
+    letter-spacing: 0.22px;
+    line-height: 77px;
+    font-weight: 700;
+}
+
+#brand h2 {
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 29px;
+    font-weight: 700;
+}
+
+#brand h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+#scroll-tip {
+    font-size: 16px;
+    line-height: 25px;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#scroll-tip a {
+    color:#fff;
+    text-decoration: none;
+
+}
+
+#main {
+    padding:28px 20px 70px;
+}
+
+#main .col-xs-12 { padding-bottom: 70px;}
+
+#main h1 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #5C5C5C;
+    letter-spacing: 0.43px;
+    line-height: 31px;
+}
+
+#main p {
+    font-size: 16px;
+    color: #212121;
+    line-height: 19.5px;
+}
+
+#main a {
+    font-size: 15px;
+    color: #487366;
+    letter-spacing: 0.22px;
+    font-weight: 700;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+    
+    #brand h1 {
+        font-size: 144px;
+        line-height: 173px;
+    }
+    
+    #brand h2 {
+        font-size: 64px;
+        line-height: 77px;
+    }
+    
+    #brand h3 {
+        font-size: 36px;
+        line-height: 77px;
+    }
+    
+    #scroll-tip {
+        font-size: 24px;
+    }
+
+    #main h1 {
+        font-size:48px;
+        line-height:52px;
+        margin: 40px auto;
+    }
+    
+    #main p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    #links {
+        margin:15px auto 35px;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    #brand {
+        background: url(../images/bg-lg.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+
+}
+        
+
