@@ -2,6 +2,12 @@ html,body {
   height:100%;
     min-height: 100% !important;
   margin:0;
+    
+    background: url(../images/phone-xs.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .row {
@@ -82,11 +88,6 @@ body {
     height:100%;
     min-height:100%;/*for mozilla*/
     padding:28px 20px 70px;
-        background: url(../images/phone-xs.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
 }
 
 #main .col-xs-12 { padding-bottom: 70px;}
@@ -153,20 +154,21 @@ body {
 }
 
 @media screen and (min-width: 900px) {
+    
+    body {
+        background: url(../images/phone-lg.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    
     #brand {
         background: url(../images/bg-lg.jpg) no-repeat center center fixed; 
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
-    }
-    
-    #main {
-        background: url(../images/phone-lg.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
     }
 
 }
